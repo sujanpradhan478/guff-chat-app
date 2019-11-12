@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "29169603583",
+    "firebase_url": "https://guff-sujan.firebaseio.com",
+    "project_id": "guff-sujan",
+    "storage_bucket": "guff-sujan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29169603583:android:3663077761129be4750dca",
+        "android_client_info": {
+          "package_name": "com.zenith.guff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29169603583-7ljesk1oe8mkfa9jm9tkp1lo5rfk4jno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zenith.guff",
+            "certificate_hash": "c2b7e0612d279859b07ba5dacbaea9b9e29ab2d4"
+          }
+        },
+        {
+          "client_id": "29169603583-l5uhc95fep86bcmajrql63s0f4b13g3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRHSuLSA5eLW3PZW1ETdsc8uTnyOpB0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29169603583-l5uhc95fep86bcmajrql63s0f4b13g3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

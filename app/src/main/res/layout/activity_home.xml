@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Guff"
+            android:textColor="#EF5266"
+            android:textSize="30sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/appname"
+            android:background="#535353"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/tab1"
+            android:onClick="tabClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/chat"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/chats"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/tab2"
+            android:onClick="tabClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/add"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/tab3"
+            android:onClick="tabClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/search"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/tab4"
+            android:onClick="tabClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
